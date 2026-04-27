@@ -4,7 +4,7 @@ class Counter{
 	int cnt = 0;      //일반 변수, 초기값 0
 	
 	void increase() { //메서드
-		cnt++;        //cnt+1
+		cnt++;        //cnt 후위연산
 	}
 }
 
@@ -19,6 +19,7 @@ public class StaticTest1 {
 		
 		System.out.println("c1: "+c1.cnt);  //0+1=1
 		System.out.println("c2: "+c2.cnt);  //0+1=1
+	//일반변수는 객체마다 각각의 기억장소가 생성된다.
 	}
 
 }
