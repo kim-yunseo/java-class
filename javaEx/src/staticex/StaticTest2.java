@@ -6,7 +6,7 @@ package staticex;
 //한 번만 생성됨(끝까지)
 
 class Counter2{
-	static int cnt = 0;        //클래스 변수, 초기값 0
+	static int cnt = 0;        //클래스 변수, 초기값 0//
 	
 	static void increase() {   //클래스 메서드
 		cnt++;                 //cnt 후위연산

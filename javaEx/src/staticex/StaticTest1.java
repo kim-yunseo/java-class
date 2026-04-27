@@ -3,7 +3,7 @@ package staticex;
 class Counter{
 	int cnt = 0;      //일반 변수, 초기값 0
 	
-	void increase() { //메서드
+	void increase() { //메서드//
 		cnt++;        //cnt 후위연산
 	}
 }
